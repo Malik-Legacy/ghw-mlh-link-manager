@@ -1,4 +1,29 @@
-body{
-
+body {
+    font-family: Arial, Helvetica, sans-serif; /* sets font family */
+    font-size: 1.5em;   /* sets font size 1em = 16px tall (standard)*/
+    max-width: 600px;   /* sets max width of page in pixels*/
+    margin: 0 auto;     /* centers entire page */
     background-image:linear-gradient(to right,skyblue,pink);
+}
+
+div {
+    background-color: rgba(121, 26, 153, 0.102); /* sets background color of div */
+}
+
+h1 {
+    font-size: 1.25em; /* sets font size of h1 */
+    text-align: center; /* centers text in h1 */
+    margin: 10px 0; /* sets margin around h1 */
+}
+
+h2 {
+    font-size: 0.9em; /* sets font size of h2 */
+    color: #333; /* sets font color of h2 */
+    text-align: center; /* centers text in h2 */
+    margin: 10px 0; /* sets margin around h2 */
+}
+
+a {
+    padding: 2px 5px; /* sets padding around a */
+    margin: 5px 10px; /* sets margin around a */
 }
