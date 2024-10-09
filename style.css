@@ -3,7 +3,7 @@ body {
     font-size: 1.5em;   /* sets font size 1em = 16px tall (standard)*/
     max-width: 600px;   /* sets max width of page in pixels*/
     margin: 0 auto;     /* centers entire page */
-    background-image:linear-gradient(to right,skyblue,pink);
+    background-image:linear-gradient(to right,#8c52ff,#56dce1,#ffffff)
 }
 
 div {
@@ -11,9 +11,10 @@ div {
 }
 
 h1 {
-    font-size: 1.25em; /* sets font size of h1 */
+    font-size: 2.50em; /* sets font size of h1 */
     text-align: center; /* centers text in h1 */
     margin: 10px 0; /* sets margin around h1 */
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h2 {
@@ -27,3 +28,4 @@ a {
     padding: 2px 5px; /* sets padding around a */
     margin: 5px 10px; /* sets margin around a */
 }
+ 
